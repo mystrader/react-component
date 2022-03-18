@@ -1,0 +1,61 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* GREY */
+  --color-grey-25: #f9f9f9;
+  --color-grey-50: #f4f4f4;
+  --color-grey-100: #eaeaea;
+  --color-grey-200: #bcbcbc;
+  --color-grey-300: #6e6e6e;
+  --color-grey-400: #323232;
+
+  /* VIOLET */
+  --color-violet-100: #b24bff;
+  --color-violet-200: #8e3ccb;
+  --color-violet-300: #7933ac;
+  --color-violet-400: #5d2786;
+
+  /* ORANGE */
+  --color-orange-100: #ff8c32;
+  --color-orange-200: #ff5e32;
+  --color-orange-300: #e3542d;
+  --color-orange-400: #c14726;
+
+  /* RED */
+  --color-red-100: #fc5059;
+  --color-red-200: #e34850;
+  --color-red-300: #d7373f;
+  --color-red-400: #b32e34;
+
+  /* YELLOW */
+  --color-yellow-100: #ffd54e;
+  --color-yellow-200: #ffc200;
+  --color-yellow-300: #f0b600;
+  --color-yellow-400: #d6a200;
+
+  /* GREY */
+  --color-green-100: #39c7af;
+  --color-green-200: #39b29d;
+  --color-green-300: #268e7d;
+  --color-green-400: #1f7567;
+
+  /* BLUE */
+  --color-blue-100: #1b92ff;
+  --color-blue-200: #1678d1;
+  --color-blue-300: #146dbf;
+  --color-blue-400: #115da3;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
