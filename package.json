@@ -1,6 +1,6 @@
 {
-  "name": "react-component-library",
-  "version": "0.0.1",
+  "name": "@mystrader/react-component",
+  "version": "0.0.3",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -23,5 +23,8 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/react-component"
+  },
   "types": "dist/index.d.ts"
 }
