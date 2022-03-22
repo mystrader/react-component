@@ -3,16 +3,26 @@
   "version": "0.0.8",
   "description": "A simple template for a custom React component library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Mystrader",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.17.8",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@rollup/plugin-typescript": "^8.3.0",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-interactions": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "0.0.9",
     "@types/react": "^17.0.34",
     "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.4",
     "postcss": "^8.4.12",
     "rollup": "^2.60.0",
     "rollup-plugin-dts": "^4.0.1",
@@ -35,5 +45,8 @@
     "registry": "https://npm.pkg.github.com/react-component"
   },
   "types": "dist/index.d.ts",
-  "dependencies": {}
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }

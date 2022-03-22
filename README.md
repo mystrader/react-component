@@ -1,3 +1,6 @@
+
+
+
 ## Estudos que foi baseado
 
 - [Estrutura principal do rollUp - youtube](https://www.youtube.com/watch?v=XHQi5a0TmMc&t=248s)
@@ -12,3 +15,8 @@
 [ https://github.com/egoist/rollup-plugin-postcss ] 
 ( GitHub - egoist/rollup-plugin-postcss: Seamless integration between Rollup and PostCSS.) 
 
+
+---
+# Problemas encontrados
+
+## Ao instalar o Storybook está pedindo as dependencias de react, sendo que já tem projeto
