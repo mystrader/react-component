@@ -35,5 +35,11 @@
     "registry": "https://npm.pkg.github.com/react-component"
   },
   "types": "dist/index.d.ts",
-  "dependencies": {}
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.2.8",
+    "react-icons": "^4.3.1"
+  }
 }
